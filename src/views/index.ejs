@@ -1,0 +1,15 @@
+<html>
+<head>
+  <% include ./partials/head %>
+</head>
+<body>
+<% include ./partials/nav %>
+<h1>Hello <%= datas.name %> </h1>
+<form method="POST"action="/">
+  name : <input type="text" name="name">
+  <button class="btn btn-success" type="submit">GO</button>
+</form>
+
+<% include ./partials/footer %>
+</body>
+</html>

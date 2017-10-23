@@ -1,0 +1,13 @@
+<html>
+<head>
+  <% include ./partials/head %>
+</head>
+<body>
+<% include ./partials/nav %>
+<h1>Users</h1>
+
+<% for(var data of datas.users){ %>
+<h3><%= data.id %> <%= data.name %></h3>
+<% } %>
+</body>
+</html>
